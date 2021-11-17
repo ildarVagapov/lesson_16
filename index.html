@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header"></header>
+		<main class="main">
+			<div class="form">
+				<div class="form__title">Make an appointment</div>
+				<form action="#" class="form__items">
+					<div class="form__input">
+						<input autocomplete="off" required class="form__item" placeholder="Name" type="text">
+					</div>
+					<div class="form__input">
+						<input class="form__item" placeholder="Email" type="text">
+					</div>
+					<div class="form__input">
+						<input autocomplete="off" required class="form__item" placeholder="Phone Number" type="text">
+					</div>
+					<div class="form__input">
+						<input class="form__item" placeholder="Select Service" type="text">
+					</div>
+					<div class="form__line">
+						<textarea placeholder="Tell us about your puppers include his/her name" autocomplete="off" name="text"
+							class="form__textarea"></textarea>
+					</div>
+					<button class="submit" type="submit">Make an Appointment</button>
+				</form>
+			</div>
+			<div class="registered">
+				<div class="registered__title titles">Registered Customers</div>
+				<div class="registered__text text">If you have an account, sign in with your email address.</div>
+				<form action="#" class="registered__form">
+					<div class="item-form">
+						<label class="item-form__label item-form__label_after" for="email">Email</label>
+						<input autocomplete="off" required class="item-form__input" id="email" placeholder="Your Name"
+							type="text">
+					</div>
+					<div class="item-form ">
+						<label class="item-form__label item-form__label_after" for="password">Password</label>
+						<input class="item-form__input " placeholder="Your Name" id="password" type="text">
+					</div>
+					<button type="submit" class="form__btn">Sign In</button>
+					<a class="item-form__link" href="#">Forgot Your Password?</a>
+				</form>
+			</div>
+			<div class="summary">
+				<h2 class="summary__title titles">Summary</h2>
+				<div class="summary__subtitle subtitle">Estimate Shipping and Tax</div>
+				<div class="summary__text text">Enter your destination to get a shipping estimate.</div>
+				<form action="#" class="summary__form">
+					<div class="item-form">
+						<label class="item-form__label " for="Country">Country</label>
+						<select class="item-form__input item-form__input_color" name="select" id="Country">
+							<option class="item-form__option" value="1">село Татарская Каргала</option>
+							<option value="2">Russia</option>
+							<option value="3">USA</option>
+							<option value="4">Russia</option>
+						</select>
+					</div>
+					<div class="item-form">
+						<label class="item-form__label " for="State/Province">State/Province</label>
+						<input autocomplete="off" required class="item-form__input" id="State/Province" placeholder=""
+							type="text">
+					</div>
+					<div class="item-form item-form_margin ">
+						<label class="item-form__label" for="Zip/Postal Code">Zip/Postal Code</label>
+						<input class="item-form__input" placeholder="" id="Zip/Postal Code" type="text">
+					</div>
+
+					<div class="item-radio">
+						<h3 class="item-radio__title">Standard Rate</h3>
+						<input checked id="radio1" name="radio" type="radio" class="item-radio__form">
+						<label for="radio1" class="item-radio__label">Price may vary depending on the
+							item/destination. Shop
+							Staff
+							will contact you. $21.00
+						</label>
+					</div>
+					<div class="item-radio item-radio_margin">
+						<h3 class="item-radio__title">Pickup from store</h3>
+						<input id="radio" name="radio" type="radio" class="item-radio__form">
+						<label for="radio" class="item-radio__label">1234 Street Adress City Address, 1234
+							$0.00</label>
+					</div>
+					<div class="item-form ">
+						<div class="summary__subtitle subtitle">Apply Discount Code</div>
+						<label class="item-form__label " for="Enter discount code">Enter discount code</label>
+						<input class="item-form__input " placeholder="Enter Discount code" id="Enter discount code"
+							type="text">
+					</div>
+					<button type="submit" class="summary__btn">Apply Discount</button>
+				</form>
+			</div>
+			<div class="address">
+				<div class="address__title titles">Shipping Address</div>
+				<form class="address__form">
+					<div class="item-form">
+						<label class="item-form__label item-form__label_after" for="email">Email Address</label>
+						<input autocomplete="off" required class="item-form__input" id="email" type="text">
+						<div class="item-form__subtitle">You can create an account after checkout.</div>
+					</div>
+					<div class="item-form">
+						<label class="item-form__label item-form__label_after" for="First Name">First Name </label>
+						<input autocomplete="off" required class="item-form__input" id="First Name" type="text">
+					</div>
+					<div class="item-form">
+						<label class="item-form__label item-form__label_after" for="Last Name ">Last Name </label>
+						<input autocomplete="off" required class="item-form__input" id="Last Name " type="text">
+					</div>
+					<div class="item-form">
+						<label class="item-form__label item-form__label_after" for="Company">Company</label>
+						<input autocomplete="off" required class="item-form__input" id="Company" type="text">
+					</div>
+					<div class="item-form">
+						<label class="item-form__label item-form__label_after" for="Street Address">Street Address</label>
+						<input autocomplete="off" required class="item-form__input" id="Street Address" type="text">
+						<input autocomplete="off" required class="item-form__input item-form__input_margin-top"
+							id="Street Address" type="text">
+					</div>
+					<div class="item-form">
+						<label class="item-form__label item-form__label_after" for="City">City</label>
+						<input autocomplete="off" required class="item-form__input" id="City" type="text">
+					</div>
+					<div class="item-form">
+						<label class="item-form__label " for="State/Province">State/Province</label>
+						<select class="item-form__input item-form__input_color" name="State/Province" id="State/Province">
+							<option class="item-form__option" value="1">Please, select a region, state or province</option>
+							<option value="2">Please, select a region, state or province</option>
+							<option value="3">Please, select a region, state or province</option>
+							<option value="4">Please, select a region, state or province</option>
+						</select>
+					</div>
+					<div class="item-form">
+						<label class="item-form__label item-form__label_after" for="Zip/Postal Code">Zip/Postal Code</label>
+						<input autocomplete="off" required class="item-form__input" id="Zip/Postal Code" type="text">
+					</div>
+					<div class="item-form">
+						<label class="item-form__label " for="Country">Country</label>
+						<select class="item-form__input item-form__input_color" name="select" id="Country">
+							<option class="item-form__option" value="1">село Татарская Каргала</option>
+							<option value="2">Russia</option>
+							<option value="3">USA</option>
+							<option value="4">Russia</option>
+						</select>
+					</div>
+					<div class="item-form ">
+						<label class="item-form__label item-form__label_after" for="Phone Number">Phone Number</label>
+						<input autocomplete="off" required class="item-form__input" id="Phone Number" type="text">
+					</div>
+					<div class="item-radio ">
+						<h3 class="item-radio__title">Standard Rate</h3>
+						<input checked id="radio-address" name="radio" type="radio" class="item-radio__form">
+						<label for="radio-address" class="item-radio__label">Price may vary depending on the
+							item/destination. Shop
+							Staff
+							will contact you. $21.00
+						</label>
+					</div>
+					<div class="item-radio item-radio_margin ">
+						<h3 class="item-radio__title">Pickup from store</h3>
+						<input id="radio-address1" name="radio" type="radio" class="item-radio__form">
+						<label for="radio-address1" class="item-radio__label">1234 Street Adress City Address, 1234
+							$0.00</label>
+					</div>
+					<div class="address__btn">
+						<button type="submit" class="btn">
+							Next
+						</button>
+					</div>
+				</form>
+			</div>
+
+		</main>
+		<footer class=" footer"></footer>
+	</div>
+</body>
+
+</html>
